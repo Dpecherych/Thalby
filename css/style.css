@@ -1,0 +1,15 @@
+@import 'reset';
+
+ * {
+   padding: 0;
+   margin: 0;
+ }
+header .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+.container {
+    min-width: 1064px;
+    margin: auto;
+}
