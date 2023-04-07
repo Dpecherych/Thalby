@@ -9,20 +9,38 @@
    font-weight: 400;
  }
 header .logo {
-    position: absolute;
-    left: calc(50% - 40px);
-    top: 16px;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 16px;
+}
+header nav ul li {
+  margin-right: 28px;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
 }
 .container {
-    max-width: 1064px;
-    margin: auto;
+  max-width: 1064px;
+  margin: auto;
 }
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 6px;
 }
 header .container ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .networks li{
+  margin-left: 27;
 }
 
 /* main banner */
@@ -33,14 +51,11 @@ header .container ul {
   position: relative;
 }
 .main_banner h1 {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 60px;
 line-height: 70px;
 color: #000000;
 margin-bottom: 42px;
-}
-.main_banner.container {
 }
 .main_banner .container p {
 font-size: 24px;
@@ -60,7 +75,7 @@ padding: 8px 23px;
 }
 .main_banner .guide_img {
 position: absolute;
-right: 60px;
+right: 5%;
 top: 9px;
 }
 
@@ -80,14 +95,14 @@ top: 9px;
   color: #000000;
   margin-bottom: 27px;
 }
-.descrition p{
+.descrition p {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   color: #000000;
 }
 .descrition .descrition_text {
-font-size: 20px;
+  font-size: 20px;
   line-height: 23px;
   text-align: center;
   color: #000000;
