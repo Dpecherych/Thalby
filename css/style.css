@@ -40,7 +40,7 @@ header .container ul {
   align-items: center;
 }
 header .networks li{
-  margin-left: 27;
+  margin-left: 15px;
 }
 
 /* main banner */
@@ -75,7 +75,7 @@ padding: 8px 23px;
 }
 .main_banner .guide_img {
 position: absolute;
-right: 5%;
+left: calc(50% + 60px);
 top: 9px;
 }
 
