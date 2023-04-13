@@ -42,7 +42,10 @@ header .container ul {
 header .networks li{
   margin-left: 15px;
 }
-
+header .networks li .img_shop{
+position: relative;
+transform: translate(-3px, -1px);
+}
 /* main banner */
 
 .main_banner {
