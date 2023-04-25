@@ -174,7 +174,7 @@ top: 9px;
 }
 .owl-nav .owl-next {
   position: absolute;
-  left: 1079px;
+  right: -64px;
   top: 181px;
   width: 50px;
   height: 50px;
