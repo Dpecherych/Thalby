@@ -111,3 +111,73 @@ top: 9px;
   color: #000000;
   margin-bottom: 47px;
 }
+
+/* section guides */
+
+.guides {
+  max-width: 100%;
+  margin: auto;
+  padding: 60px 0 248px;
+}
+.guides h2{
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 52px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.guides .carousel_guides {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.guides .carousel_guides img {
+  margin-bottom: 27px;
+  max-width: 309px;
+}
+.guides .carousel_guides .description{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.guides .carousel_guides .price {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.guides .carousel_guides a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.owl-carousel .owl-item img {
+ display: inline;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  left: -66px;
+  top: 181px;
+  width: 50px;
+  height: 50px;
+  background-color: #000000!important;
+
+}
+.owl-nav .owl-next {
+  position: absolute;
+  left: 1079px;
+  top: 181px;
+  width: 50px;
+  height: 50px;
+  background-color: #000000!important;
+  
+}
