@@ -12,6 +12,7 @@ header .logo {
   position: absolute;
   left: calc(50% - 40px);
   top: 16px;
+  z-index: 99;
 }
 header nav ul li {
   margin-right: 28px;
@@ -198,4 +199,127 @@ top: 9px;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: rotate(225deg);
+}
+
+/* people society */
+
+.people {
+  max-width: 100%;
+  margin: auto;
+  padding: 76px 0 51px;
+  background: rgba(204, 204, 204, 0.3);
+}
+.people .container {
+  display: flex;
+}
+.people .container img {
+  width: 385px;
+  height: 525px;
+  background-color: rgba(204, 204, 204, 0.3);
+  margin-right: 50px;
+}
+.people .container .text_container{
+  padding: 70px 131px 70px 0;
+}
+.people .container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people .container p {
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-bottom: 40px;
+
+}
+.people .container a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* culture */
+
+.culture {
+  max-width: 100%;
+  margin: auto;
+  padding: 76px 0 51px;
+  background: rgba(204, 204, 204, 0.6);
+}
+.culture .container {
+  display: flex;
+}
+.culture .container .text_container {
+padding: 93px 0 108px 100px;
+text-align: right;
+}
+.culture .container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture .container p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture .container a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+.culture .container img {
+  margin-left: 50px;
+}
+
+/* politics */
+
+.politics {
+  max-width: 100%;
+  margin: auto;
+  padding: 76px 0 51px;
+  background: rgba(204, 204, 204, 0.3);
+}
+.politics .container {
+  display: flex;
+}
+.politics .container img {
+  width: 385px;
+  height: 525px;
+  background-color: rgba(204, 204, 204, 0.3);
+  margin-right: 50px;
+}
+.politics .container .text_container{
+  padding: 70px 131px 70px 0;
+}
+.politics .container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.politics .container p {
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-bottom: 40px;
+
+}
+.politics .container a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
 }
