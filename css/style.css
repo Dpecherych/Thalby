@@ -1,6 +1,4 @@
-@import 'reset';
-
- * {
+* {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -38,6 +36,7 @@ header .container {
 header .container ul {
   list-style: none;
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 header .networks li{
@@ -47,6 +46,7 @@ header .networks li .img_shop{
 position: relative;
 transform: translate(-3px, -1px);
 }
+
 /* main banner */
 
 .main_banner {
@@ -83,7 +83,7 @@ left: calc(50% + 60px);
 top: 9px;
 }
 
-/* description*/
+description
 
 .descrition {
   padding: 60px 0 88px;
