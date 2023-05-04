@@ -1,53 +1,3 @@
-* {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-   font-family: 'Roboto', sans-serif;
-   font-style: normal;
-   font-weight: 400;
- }
-
-header .logo {
-  position: absolute;
-  left: calc(50% - 40px);
-  top: 16px;
-  z-index: 99;
-}
-header nav ul li {
-  margin-right: 28px;
-}
-header nav ul li a{
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-  color: #1C1B1B;
-}
-.container {
-  max-width: 1064px;
-  margin: auto;
-}
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 7px;
-  padding-bottom: 6px;
-}
-header .container ul {
-  list-style: none;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-header .networks li{
-  margin-left: 15px;
-}
-header .networks li .img_shop{
-position: relative;
-transform: translate(-3px, -1px);
-}
-
 /* main banner */
 
 .main_banner {
@@ -84,11 +34,8 @@ left: calc(50% + 60px);
 top: 9px;
 }
 
-description
+/* description */
 
-.descrition {
-  padding: 60px 0 88px;
-}
 .descrition .container {
   max-width: 692px;
 }
@@ -330,8 +277,8 @@ margin-bottom: 40px;
 
 .features {
   max-width: 100%;
-  margin: auto;
-  padding: 190px 0 52px;
+  padding-top: 190px;
+  padding-bottom: 290px;
 }
 .features .container h2 {
   font-weight: 400;
@@ -339,5 +286,172 @@ margin-bottom: 40px;
   line-height: 42px;
   text-align: center;
   color: #000000;
+  margin-bottom: 70px;
+}
+.features .features_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.features .features_item article {
+  width: 33%;
+}
+.features .features_item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 111px;
+  color: #000000;
+}
+.features .features_item article img {
+  margin-bottom: 25px;
+}
+.features h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 102px;
+  color: #000000;
 }
 
+/* interviews */
+
+.interviews {
+  height: 480px;
+  padding-bottom: 52px;
+  background: #F0F0F0;
+}
+.interviews .container {
+  display: flex;
+  justify-content: space-between;
+}
+.interviews .container article {
+  position: relative;
+  top: -185px;
+  text-align: center;
+}
+.interviews .container article img {
+  margin-bottom: 35px;
+}
+.interviews .container article h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-bottom: 40px;
+  max-width: 248px;
+  max-height: 78px;
+}
+.interviews .container article p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 51px;
+}
+.interviews .container article a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+/* contact */
+
+.contact {
+  max-width: 100%;
+  padding-top: 78px;
+  padding-bottom: 88px;
+  background: #FFFFFF;
+}
+.contact .contact_container {
+  max-width: 496px;
+  margin: auto;
+}
+.contact .contact_container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.contact .contact_container p {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.contact .contact_container form {
+  display: flex;
+  flex-wrap: wrap;
+  height: 145px;
+  width: 366px;
+  align-items: center;
+}
+.contact .contact_container form button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 7px 23px;
+}
+
+/* footer */
+
+footer {
+  max-width: 100%;
+  padding: 50px 0 16px;
+  background: #020202;
+}
+footer .container_content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .left_first a {
+  margin-bottom: 25px;
+  display: block;
+}
+footer .container .container_content .networks {
+  display: flex;
+}
+footer .container .container_content .networks li {
+  margin-right: 20px;
+}
+footer .container .container_content .right_first {
+  display: flex;
+}
+footer .container .container_content .right_first ul {
+  min-width: 215px;
+  margin-left: 25px;
+}
+
+
+
+footer .container .licens {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}

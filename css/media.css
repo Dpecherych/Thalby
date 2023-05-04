@@ -106,6 +106,7 @@
 } 
 
 .nav-but-wrap{ 
+	display: inline;
 	position: relative;
 	display: block;
 	margin-top: -32px;

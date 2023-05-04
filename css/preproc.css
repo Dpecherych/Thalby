@@ -188,6 +188,10 @@ header .container .networks li .img_shop {
   margin: auto;
 }
 
+.nav-but-wrap {
+  display: none;
+}
+
 /* main banner */
 .main_banner {
   background: #f0efeb;
