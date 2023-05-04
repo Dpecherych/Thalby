@@ -116,6 +116,7 @@
 	height: 30px;
 	width: 30px;
 	position: relative;
+	top: 19px;
 	z-index: 2;
 	cursor: pointer;
 	display: block;

@@ -6,6 +6,7 @@
    font-style: normal;
    font-weight: 400;
  }
+
 header .logo {
   position: absolute;
   left: calc(50% - 40px);
@@ -98,6 +99,7 @@ description
   text-align: center;
   color: #000000;
   margin-bottom: 27px;
+  margin-top: 60px;
 }
 .descrition p {
   font-size: 20px;
@@ -323,3 +325,19 @@ margin-bottom: 40px;
   line-height: 20px;
   color: #000000;
 }
+
+/* features */
+
+.features {
+  max-width: 100%;
+  margin: auto;
+  padding: 190px 0 52px;
+}
+.features .container h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
