@@ -15,6 +15,8 @@
 	width: 100%;
 	text-align: center;
     }
+	.nav__list {
+		display: block;
 	}
     .nav__list-item {
         position: relative;
@@ -188,9 +190,6 @@
 body.nav-active .nav__content {
 	visibility: visible;
 }
-body.nav-active .nav__content .nav__list {
-	display: block;
-} 
 body.nav-active .menu-icon__line {
 	background-color: #fff;
 	-webkit-transform: translate(0px, 0px) rotate(-45deg);
@@ -226,6 +225,9 @@ body.nav-active .nav:after {
 body.nav-active .nav:before {
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
+}
+body.nav-active .nav__list {
+	display: block;
 }
 body.nav-active .nav__list-item {
 	opacity: 1;
