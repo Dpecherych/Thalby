@@ -157,10 +157,16 @@ header .container .logo {
   top: 16px;
   z-index: 99;
 }
-header .container .nav ul li {
+header .container nav {
+  display: flex;
+}
+header .container nav ul {
+  display: flex;
+}
+header .container nav ul li {
   margin-right: 28px;
 }
-header .container .nav ul li a {
+header .container nav ul li a {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -198,22 +204,19 @@ header .container .networks li .img_shop {
   padding: 90px 0;
   position: relative;
 }
-
-.main_banner h1 {
+.main_banner .container h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
   color: #000000;
   margin-bottom: 42px;
 }
-
 .main_banner .container p {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
   margin-bottom: 26px;
 }
-
 .main_banner .container a {
   background: #000000;
   border: 1px solid #000000;
@@ -224,276 +227,8 @@ header .container .networks li .img_shop {
   text-decoration: none;
   padding: 8px 23px;
 }
-
 .main_banner .guide_img {
   position: absolute;
   left: calc(50% + 60px);
   top: 9px;
-}
-
-description .descrition {
-  padding: 60px 0 88px;
-}
-
-.descrition .container {
-  max-width: 692px;
-}
-
-.descrition h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 27px;
-  margin-top: 60px;
-}
-
-.descrition p {
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
-}
-
-.descrition .descrition_text {
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 47px;
-}
-
-/* section guides */
-.guides {
-  max-width: 100%;
-  margin: auto;
-  padding: 60px 0 248px;
-}
-
-.guides h2 {
-  box-sizing: border-box;
-  text-align: center;
-  margin-bottom: 52px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  color: #000000;
-}
-
-.guides .carousel_guides {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.guides .carousel_guides img {
-  margin-bottom: 27px;
-  max-width: 309px;
-}
-
-.guides .carousel_guides .description {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-  margin-bottom: 17px;
-}
-
-.guides .carousel_guides .price {
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
-.guides .carousel_guides a {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  text-decoration-line: underline;
-  color: #000000;
-}
-
-.owl-carousel .owl-item img {
-  display: inline;
-}
-
-.owl-nav .owl-prev {
-  position: absolute;
-  left: -66px;
-  top: 181px;
-  width: 50px;
-  height: 50px;
-}
-
-.owl-nav .owl-prev:before {
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 19px;
-  width: 25px;
-  height: 25px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  transform: rotate(45deg);
-}
-
-.owl-nav .owl-next {
-  position: absolute;
-  right: -66px;
-  top: 181px;
-  width: 50px;
-  height: 50px;
-}
-
-.owl-nav .owl-next:before {
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 4px;
-  width: 25px;
-  height: 25px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  transform: rotate(225deg);
-}
-
-/* people society */
-.people {
-  max-width: 100%;
-  margin: auto;
-  padding: 76px 0 51px;
-  background: rgba(204, 204, 204, 0.3);
-}
-
-.people .container {
-  display: flex;
-}
-
-.people .container img {
-  width: 385px;
-  height: 525px;
-  background-color: rgba(204, 204, 204, 0.3);
-  margin-right: 50px;
-}
-
-.people .container .text_container {
-  padding: 70px 131px 70px 0;
-}
-
-.people .container h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-
-.people .container p {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 40px;
-}
-
-.people .container a {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-}
-
-/* culture */
-.culture {
-  max-width: 100%;
-  margin: auto;
-  padding: 76px 0 51px;
-  background: rgba(204, 204, 204, 0.6);
-}
-
-.culture .container {
-  display: flex;
-}
-
-.culture .container .text_container {
-  padding: 93px 0 108px 100px;
-  text-align: right;
-}
-
-.culture .container h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-
-.culture .container p {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-
-.culture .container a {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-}
-
-.culture .container img {
-  margin-left: 50px;
-}
-
-/* politics */
-.politics {
-  max-width: 100%;
-  margin: auto;
-  padding: 76px 0 51px;
-  background: rgba(204, 204, 204, 0.3);
-}
-
-.politics .container {
-  display: flex;
-}
-
-.politics .container img {
-  width: 385px;
-  height: 525px;
-  background-color: rgba(204, 204, 204, 0.3);
-  margin-right: 50px;
-}
-
-.politics .container .text_container {
-  padding: 70px 131px 70px 0;
-}
-
-.politics .container h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-
-.politics .container p {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 40px;
-}
-
-.politics .container a {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
 }/*# sourceMappingURL=preproc.css.map */

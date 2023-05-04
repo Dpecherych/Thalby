@@ -15,6 +15,7 @@
 	width: 100%;
 	text-align: center;
     }
+	}
     .nav__list-item {
         position: relative;
         display: block;
@@ -187,6 +188,9 @@
 body.nav-active .nav__content {
 	visibility: visible;
 }
+body.nav-active .nav__content .nav__list {
+	display: block;
+} 
 body.nav-active .menu-icon__line {
 	background-color: #fff;
 	-webkit-transform: translate(0px, 0px) rotate(-45deg);
