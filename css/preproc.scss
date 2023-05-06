@@ -171,7 +171,6 @@ header {
     color: #000000;
   }
   .carousel_guides {
-    display: flex;
     justify-content: space-between;
     text-align: center;
     img {
@@ -201,6 +200,26 @@ header {
       color: #000000;
     }
   }
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: purple;
+}
+
+.owl-dot.active span {
+  background-color: blue;
 }
 
 .owl-nav {
@@ -492,16 +511,43 @@ header {
       height: 145px;
       width: 366px;
       align-items: center;
-      button {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        color: #ffffff;
-        background: #000000;
-        border: 1px solid #000000;
-        border-radius: 100px;
-        padding: 7px 23px;
+      margin: 0 auto;
+      ul {
+        .form__name {
+          display: flex;
+          justify-content: center;
+          column-gap: 60px;
+          margin-bottom: 20px;
+          input {
+            width: 150px;
+            flex: 1 1 100%;
+            border: 1px solid black;
+            padding: 10px 0;
+          }
+        }
+        .form__email {
+          display: flex;
+          margin-bottom: 25px;
+
+          input {
+            flex: 1 1 100%;
+            border: 1px solid black;
+            padding: 10px 0;
+          }
+        }
+        button {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #ffffff;
+          background: #000000;
+          border: 1px solid #000000;
+          border-radius: 100px;
+          padding: 7px 23px;
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }
@@ -529,10 +575,31 @@ footer {
       }
       .right_first {
         display: flex;
-
         ul {
-          min-width: 215px;
+          max-width: 430px;
           margin-left: 25px;
+          margin-right: 25px;
+          .footer_paragraph {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            margin-bottom: 36px;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-bottom: 35px;
+          }
+          li {
+            margin-bottom: 12px;
+            a {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+              text-decoration: none;
+              color: #ffffff;
+            }
+          }
         }
       }
     }

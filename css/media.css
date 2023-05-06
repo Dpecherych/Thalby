@@ -1,3 +1,50 @@
+@media only screen and (max-width: 1025px) {
+  .main_banner .guide_img {
+    left: calc(50% + 10px);
+  }
+  .people .container .text_container p {
+    font-size: 28px;
+  }
+  .culture .container .text_container p {
+    font-size: 28px;
+  }
+  .politics .container .text_container p {
+    font-size: 28px;
+  }
+  footer .container {
+    padding: 0 10px;
+  }
+}
+
+/* 993px */
+
+@media only screen and (max-width: 993px) {
+  .main_banner .guide_img {
+    left: calc(50% + 6px);
+  }  
+  
+  footer {
+    padding: 50px 16px;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .main_banner {
+    display: block;
+  }
+  .main_banner .container {
+    margin: 10px auto;
+  }
+  .main_banner .guide_img {
+    position:calc()
+  }
+  header .logo img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 821px) {
+
+}
 @media only screen and (max-width: 769px) {
   /* menu css */
 
@@ -531,14 +578,38 @@
   header nav ul li {
     margin-right: 0;
   }
+  /* all media */
+
+  header .container {
+    display: flex;
+  }
+
+  header {
+    background-color: #fff;
+  }
 }
 
-/* all media */
-
-header .container {
-  display: flex;
+@media only screen and (max-width: 429px) {
+  
 }
+@media only screen and (max-width: 415px) {
 
-header {
-  background-color: #fff;
+}
+@media only screen and (max-width: 413px) {
+
+}
+@media only screen and (max-width: 391px) {
+
+}
+@media only screen and (max-width: 376px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 321px) {
+
+}
+@media only screen and (max-width: 281px) {
+
 }

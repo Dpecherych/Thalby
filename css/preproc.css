@@ -277,7 +277,6 @@ header .container .networks li .img_shop {
   color: #000000;
 }
 .guides .carousel_guides {
-  display: flex;
   justify-content: space-between;
   text-align: center;
 }
@@ -306,6 +305,26 @@ header .container .networks li .img_shop {
   text-align: center;
   text-decoration-line: underline;
   color: #000000;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: purple;
+}
+
+.owl-dot.active span {
+  background-color: blue;
 }
 
 .owl-nav .owl-prev {
@@ -589,8 +608,31 @@ header .container .networks li .img_shop {
   height: 145px;
   width: 366px;
   align-items: center;
+  margin: 0 auto;
 }
-.contact .contact_container form button {
+.contact .contact_container form ul .form__name {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  margin-bottom: 20px;
+}
+.contact .contact_container form ul .form__name input {
+  width: 150px;
+  flex: 1 1 100%;
+  border: 1px solid black;
+  padding: 10px 0;
+}
+.contact .contact_container form ul .form__email {
+  display: flex;
+  margin-bottom: 25px;
+}
+.contact .contact_container form ul .form__email input {
+  flex: 1 1 100%;
+  border: 1px solid black;
+  padding: 10px 0;
+}
+.contact .contact_container form ul button {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -600,6 +642,8 @@ header .container .networks li .img_shop {
   border: 1px solid #000000;
   border-radius: 100px;
   padding: 7px 23px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* footer */
@@ -626,8 +670,30 @@ footer .container .container_content .right_first {
   display: flex;
 }
 footer .container .container_content .right_first ul {
-  min-width: 215px;
+  max-width: 430px;
   margin-left: 25px;
+  margin-right: 25px;
+}
+footer .container .container_content .right_first ul .footer_paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+footer .container .container_content .right_first ul li {
+  margin-bottom: 12px;
+}
+footer .container .container_content .right_first ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
 }
 footer .container .licens {
   font-family: "Roboto";
