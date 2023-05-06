@@ -626,6 +626,9 @@
   .politics .container .text_container {
     padding: 29px 0 0 0;
   }
+  footer .container .licens {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -749,7 +752,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
   } 
   footer .container .container_content .networks {
     display: flex;
@@ -759,12 +762,15 @@
   footer .container .container_content .networks li {
     margin: auto;
   }
+  footer .container .licens {
+    margin-top: 31px;
+  }
   .contact .contact_container form {
     display: block;
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) {
   .contact .contact_container form ul .form__name {
     display: block;
     text-align: center;
@@ -794,6 +800,9 @@
   .interviews .container article img {
     margin-bottom: 35px;
     max-width: -webkit-fill-available;
+  }
+  footer .container .container_content .networks li {
+    margin: 10px;
   }
 }
 @media only screen and (max-width: 281px) {
