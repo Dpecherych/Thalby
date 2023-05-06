@@ -324,7 +324,7 @@ header .container .networks li .img_shop {
 }
 
 .owl-dot.active span {
-  background-color: blue;
+  background-color: black;
 }
 
 .owl-nav .owl-prev {
@@ -554,7 +554,7 @@ header .container .networks li .img_shop {
   text-align: center;
   letter-spacing: 0.6px;
   color: #000000;
-  margin-bottom: 40px;
+  margin: auto;
   max-width: 248px;
   max-height: 78px;
 }
@@ -565,6 +565,7 @@ header .container .networks li .img_shop {
   text-align: center;
   color: #000000;
   margin-bottom: 51px;
+  margin-top: 40px;
 }
 .interviews .container article a {
   font-weight: 700;
