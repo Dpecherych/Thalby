@@ -759,9 +759,21 @@
   footer .container .container_content .networks li {
     margin: auto;
   }
+  .contact .contact_container form {
+    display: block;
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 360px) {
-
+  .contact .contact_container form ul .form__name {
+    display: block;
+    text-align: center;
+  }
+  .contact .contact_container form ul .form__email {
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 321px) {
   .main_banner .guide_img {
