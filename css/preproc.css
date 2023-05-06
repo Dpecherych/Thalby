@@ -260,7 +260,7 @@ header .container .networks li .img_shop {
   margin-bottom: 47px;
 }
 
-/* section guides */
+/* guides */
 .guides {
   max-width: 100%;
   margin: auto;
@@ -310,7 +310,6 @@ header .container .networks li .img_shop {
 .owl-dots {
   text-align: center;
 }
-
 .owl-dots .owl-dot span {
   width: 15px;
   height: 15px;
